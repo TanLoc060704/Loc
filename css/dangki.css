@@ -1,0 +1,26 @@
+/* body{
+    padding-top: 20px;
+    padding-left: 290px;
+    width: 360px;
+    height: 430px;
+    background-color: aliceblue;
+} */
+
+.form-group{
+    padding-top: 10px;
+    margin: 10px 20px;
+}
+.form-control{
+    width: 345px;
+}
+label{
+    font-variant: small-caps;
+}
+.tong{
+    border-radius: 10px;
+    width: 380px;
+    height: 385px;
+    font-weight:700;
+    background-color: white;
+}
+

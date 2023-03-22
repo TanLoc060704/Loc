@@ -1,0 +1,32 @@
+/* body{
+    padding-top: 100px;
+    padding-left: 290px;
+    width: 360px;
+    height: 280px;
+    background-color: aliceblue;
+    
+} */
+
+.form-group1{
+
+    margin: 10px 20px;
+    padding-top: 10px;
+}
+.form-group{
+    display: inline-flex;
+    margin: 10px 20px;
+    padding-top: 10px;
+}
+.form-control{
+    width: 345px;
+}
+label{
+    font-variant: small-caps;
+}
+.tong{
+    border-radius: 10px;
+    width: 430px;
+    height: 240px;
+    font-weight:700;
+    background-color: white;
+}
