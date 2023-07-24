@@ -1,258 +1,49 @@
 
-.main{
-    width: 100%;
-    background-color: rgb(252, 250, 246);
-    /* margin: 0 auto; */
-    margin-block: 30px;
-    padding-block: 30px;
-    /* padding-left: 30px; */
-    /* padding-bottom: 30px; */
-    /* padding-right: 30px; */
-    border-radius: 5px;
-}
-/* ################################################# */
-.form1{
-    /* display: inline-block; */
-    
-    width: 100%;
-    height: auto;
-    padding: 20px;  
-    padding-left: 0px;
-    padding-right: 0px;
-    background-color:white;
-    border: 1px solid rgb(147, 143, 143);
-    
-}
-.form1 a{
-    padding: 20px;
-    text-decoration: none;
-}
-/* ################################################# */
 
-
-
-/* ################################################# */
-
-.form2{
-    margin-top: 20px;
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: auto;
-    /* padding: 20px; */
-    background-color:white;
-    border-bottom: 1px solid rgb(147, 143, 143);
-}
-.form2 .form2_left{
-    /* position: relative; */
-    flex-basis: 30%;
-    /* background-color: blue; */
-    display: inline-block;
-}
-.form2 .form2_left p{
-    background-color: rgb(245, 86, 7);
-    border: 0px;
-    border-radius: 5px;
-    color: white;
-    position: absolute;
-    top: 7px;
-    left: 40px;
-}
-.form2 .form2_left input{   
-    position: absolute;
-    top: 6px;
-    left: 10px;
-    width: 20px;
-    height: 20px;
-}
-.form2 .form2_right {
-    flex-basis: 70%;
-}
-.form2 .form2_right span {
-    padding: 10px;
-    background-color:white;
-    float: right;
-}
-.form2 .form2_right span a{
-    text-decoration: none;
-    padding-left: 50px;
-}
-/* ################################################# */
 
 
 
 /* ################################################# */
 
 .form3{
-
     margin-top: 20px;
     width: 100%;
     height: auto;
     background-color: white;
+    margin-block: 20px;
     /* border: 1px solid rgb(147, 143, 143); */
     
 } 
-            /* -------------------------------------------- */
-    .form3 .one{
-        height: 40px;
-        background-color:white;
-        border-bottom: 1px solid rgb(147, 143, 143);
-        
-    }
-        .form3 .one input{
-            position: relative;
-            top: 6px;
-            left: 10px;
-            width: 20px;
-            height: 20px;
-        }
-        .form3 .one button{
-            /* position: relative;
-            top: 1px;
-            left: 15px; */
-            margin-inline: 20px ;
-            background-color: rgb(245, 86, 7);
-            border: 0px;
-            border-radius: 5px;
-            color: white;
-        }
-        .form3 .one p{
-            /* position: relative;
-            top: -18px;
-            left: 140px; */
-            /* margin-inline: 15px; */
-            display: inline-block
-        }
-        
-        /* -------------------------------------------- */
+    /* -------------------------------------------- */
     .form3 .two{
         position: relative;
-        background-color:white;
-        height: 198px;
         border-bottom: 1px solid rgb(147, 143, 143);
+        border-radius: 8px;
     }
-        .form3 .two .two_all{
-            position: absolute;
-            top: 24px;
-            left: 24px;
-            background-color:white;
-            width: 94.5%;
-            border: 1px solid rgb(147, 143, 143);
-
-        }
-            .form3 .two .two_all .tow_top{
-                background-color:rgb(250, 236, 218);
-                position: relative;
-                /* top: -15px; */
-                height: 40px;
-            }
-                .form3 .two .two_all .tow_top button{
-                    background-color:rgb(250, 236, 218);    
-                    position: absolute;
-                    top: 10px;
-                    left: 10px;
-                    border: 1px solid red;
-                    color: red;
-                    border-radius: 5px;
-                }
-                .form3 .two .two_all .tow_top p{ 
-                    position: absolute;
-                    top: 13px;
-                    left: 150px;
-
-                }
-    
-        /* .form3 .two .two_all .tow_bottom{
-            background-color:white;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+        .form3 .two .two_all .tow_top{
+            background-color:rgb(250, 236, 218);
             position: relative;
-            
+            height: 40px;
+            border-radius: 8px 8px 0 0;
         }
-            .form3 .two .two_all .tow_bottom input{
+        .form3 .two .two_all .tow_top button{
+            background-color:rgb(250, 236, 218);    
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border: 1px solid red;
+            color: red;
+            border-radius: 5px;
+        }
+        .form3 .two .two_all .tow_top p{ 
+            position: absolute;
+            top: 13px;
+            left: 150px;
 
-                width: 16%;
-                height: 20px;
-
-            }
-            .form3 .two .two_all .tow_bottom img{
-                width: 16%;
-                width: 40px;
-                height: auto;
-            }
-            .form3 .two .two_all .tow_bottom .all_collor{
-
-                width: 16%;
-            }
-            .form3 .two .two_all .tow_bottom .the_p{
-        
-                width: 16%;
-            }
-
-            .form3 .two .two_all .tow_bottom .soluong{
-
-                width: 16%;
-            }
-            .form3 .two .two_all .tow_bottom .delete{
-
-                width: 16%;
-            } */
-    /* .form3 .two .two_all .tow_bottom .all_collor .color span{
-        display: inline-block;
-        padding-left: 10px;
-        border: 1px solid rgb(147, 143, 143);
-        width: 70px;
-        height:30px;
-        border-radius: 3px;
-    }
-    .form3 .two .two_all .tow_bottom .all_collor .color span a{
-        text-decoration: none;
-        font-size: 15px;
-        margin-left: 10px;
-        display: inline-block;
-        margin: 7px;
-        margin-left: 13px;
-    } */
-
- /* ################################################# */
-
-.form3 .three{
-    background-color:white;
-    height: 40px;
-    border-bottom: 1px solid rgb(147, 143, 143);
-}
-.form3 .three p{
-    margin-top: 0px;
-    padding: 10px;
-    margin-bottom: 0px;
+        }
     
-}
-.form3 .three button{
-    position: relative;
-    left: 221px;
-    top: -28px;
-    background-color: rgb(245, 86, 7);
-    border: 0px;
-    border-radius: 5px;
-    color: white;
-}
-/* ################################################# */
-
-
-
-
-/* ################################################# */
-.form3 .four{
-    background-color:white;
-    height: 20%;
-    border-bottom: 1px solid rgb(147, 143, 143);
-}
-.form3 .four p{
-    margin-top: 0px;
-    padding: 10px;
-    margin-bottom: 0px;
-}
+        
+ /* ################################################# */
 
 
 .product_price del{
@@ -300,18 +91,12 @@
 }
 
 .product_quantity .upanddown{
-    /* background-color: aqua; */
     display: inline-block;
 }
 .product_quantity p{
     font-weight: bold;   
 }
 .product_quantity .input-qty{
-    /* width: 27px;
-    height: 20px;
-    text-align: center;
-    padding-left: 15px; */
-    /* font-size:1rem; */
     
     background-color:#fff;
     width: 37px;
@@ -327,8 +112,6 @@
 
 }
 .product_quantity .upanddown_left{
-    /* height:2.2rem;
-    width:1.9rem;  */
     padding-bottom: 0px;
     width: 30px;
     height: 30px;

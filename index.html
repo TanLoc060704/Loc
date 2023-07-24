@@ -13,6 +13,9 @@
     </style>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
@@ -34,16 +37,23 @@
                     <input type="text" name="" placeholder="Tim kiếm trên chợ tốt">
                     <button> <img src="image/search.png" alt=""> </button>
                 </div>
-                <div class="cart"><a href="market.html "><img src="image/cart.png" style="width: 50px; height: auto;"
-                            alt=""></a></div>
+                <div class="cart">
+                    <a id="imgcart" href="giohang.html"><img src="image/cart.png" style="width: 50px; height: auto;"alt="">
+                        <div class="chototcart">0</div>
+                    </a>
+                </div>
 
             </div>
         </div>
 
 
         <div class="header">
-            <!-- <h1>hello</h1> -->
-            <img src="image/hearder1.png" alt="">
+            <div class="baoongoai">
+                <img id="myimg" onmouseover="stop()" onmouseout="start()"  src="image/hearder1.png" alt="">
+                <ion-icon onclick="quaylai()" onmouseover="stop()" onmouseout="start()" id="tiep" name="chevron-back-outline"></ion-icon>
+                <ion-icon onclick="tiep()" onmouseover="stop()" onmouseout="start()" id="quaylai" name="chevron-forward-outline"></ion-icon>
+            </div>
+            
         </div>
 
         <div class="flash_sale">
@@ -125,134 +135,7 @@
                     <h3>Sản Phẩm Bán Chạy</h3>
                 </div>
                 <ul class="products">
-                    <li>
-                        <div class="product-item">
-                            <div class="product-top">
-                                <a href="thongTinSanPham.html" class="product-thumb">
-                                    <img src="image/ip1.webp" alt="">
-                                </a>
-                                <a href="market.html" class="buy-now">Mua Ngay</a>
-                            </div>
-
-                            <div class="product-info">
-                                <a href="" class="product-cat">iphone</a>
-                                <a href="" class="product-name">iphone 14 258GB</a>
-                                <div class="product-price">24,990,000 đ</div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <div class="product-top">
-                                <a href="thongTinSanPham.html" class="product-thumb">
-                                    <img src="image/ip2.webp" alt="">
-                                </a>
-                                <a href="market.html" class="buy-now">Mua Ngay</a>
-                            </div>
-
-                            <div class="product-info">
-                                <a href="" class="product-cat">iphone</a>
-                                <a href="" class="product-name">iphone 14 128GB</a>
-                                <div class="product-price">22,990,000 đ</div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <div class="product-top">
-                                <a href="thongTinSanPham.html" class="product-thumb">
-                                    <img src="image/ip5.webp" alt="">
-                                </a>
-                                <a href="market.html" class="buy-now">Mua Ngay</a>
-                            </div>
-
-                            <div class="product-info">
-                                <a href="" class="product-cat">iphone</a>
-                                <a href="" class="product-name">iphone 14 512GB</a>
-                                <div class="product-price">29,990,000 đ</div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <div class="product-top">
-                                <a href="thongTinSanPham.html" class="product-thumb">
-                                    <img src="image/ip4.webp" alt="">
-                                </a>
-                                <a href="market.html" class="buy-now">Mua Ngay</a>
-                            </div>
-
-                            <div class="product-info">
-                                <a href="" class="product-cat">iphone</a>
-                                <a href="" class="product-name">iphone 14 1T</a>
-                                <div class="product-price">32,990,000 đ</div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <div class="product-top">
-                                <a href="thongTinSanPham.html" class="product-thumb">
-                                    <img src="image/ip4.webp" alt="">
-                                </a>
-                                <a href="market.html" class="buy-now">Mua Ngay</a>
-                            </div>
-
-                            <div class="product-info">
-                                <a href="" class="product-cat">iphone</a>
-                                <a href="" class="product-name">iphone 13 128GB</a>
-                                <div class="product-price">21,590,000 đ</div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <div class="product-top">
-                                <a href="thongTinSanPham.html" class="product-thumb">
-                                    <img src="image/ip5.webp" alt="">
-                                </a>
-                                <a href="market.html" class="buy-now">Mua Ngay</a>
-                            </div>
-
-                            <div class="product-info">
-                                <a href="" class="product-cat">iphone</a>
-                                <a href="" class="product-name">iphone 13 258GB</a>
-                                <div class="product-price">22,990,000 đ</div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <div class="product-top">
-                                <a href="thongTinSanPham.html" class="product-thumb">
-                                    <img src="image/ip6.webp" alt="">
-                                </a>
-                                <a href="market.html" class="buy-now">Mua Ngay</a>
-                            </div>
-
-                            <div class="product-info">
-                                <a href="" class="product-cat">iphone</a>
-                                <a href="" class="product-name">iphone 12 128GB</a>
-                                <div class="product-price">18,990,000 đ</div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <div class="product-top">
-                                <a href="thongTinSanPham.html" class="product-thumb">
-                                    <img src="image/ip1.webp    " alt="">
-                                </a>
-                                <a href="market.html" class="buy-now">Mua Ngay</a>
-                            </div>
-
-                            <div class="product-info">
-                                <a href="" class="product-cat">iphone</a>
-                                <a href="" class="product-name">iphone 12 258GB</a>
-                                <div class="product-price">20,990,000 đ</div>
-                            </div>
-                        </div>
-                    </li>
+                    
 
                 </ul>
             </div>
@@ -303,3 +186,4 @@
 </body>
 
 </html>
+<script src="js/js.js"></script>

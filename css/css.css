@@ -99,9 +99,20 @@ body{
 
             .cart{
                 display: inline-block;
-                margin-right: 100px;
-            
             }
+            #imgcart{
+                position: relative;
+            }
+            .chototcart{
+                display: inline-block;
+                background-color: white;
+                border-radius: 30px;
+                width: 20px;
+                text-align: center;
+                position: absolute;
+                right: 0px;
+            }
+            
           
 /* ################################################# */
 
@@ -183,6 +194,8 @@ body{
     /* -------------------------------------------- */
     ul.products li .product-top .product-thumb{
         display: block;
+        background-color:#fff;
+        border-radius: 8px 8px 0 0;
     }
     ul.products li:hover .product-top .product-thumb img{
         filter:opacity(80%);
@@ -317,3 +330,26 @@ body{
 .sanpham tr th .item:hover{
     filter:opacity(70%);
 }
+.baoongoai{
+    width: 940px;
+    height: 325px;
+    /* background-color: red; */
+    position: relative;
+    
+}
+.baoongoai img{
+    border-radius: 10px;
+}
+ion-icon{
+    width: 60px;height: 60px;
+}
+#tiep{
+    position: absolute;
+    top:90px;
+    left: 40px;
+}
+#quaylai{
+    position: absolute;
+    top:90px;
+    right:40px;
+}   
